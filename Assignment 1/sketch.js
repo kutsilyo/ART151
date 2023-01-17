@@ -12,6 +12,21 @@ function draw() {
   rectMode(CENTER);
   background('#ead6aa');
   
+  // arcs
+  noFill();
+  strokeWeight(50);
+  
+  stroke('#71958d')
+  circle(250, 250, 650)
+  stroke('#657150')
+  circle(250, 250, 550)
+  stroke('#b61030')
+  circle(250, 250, 450)
+  stroke('#ca713c')
+  circle(250, 250, 350)
+  stroke('#ead6aa')
+  circle(250, 250, 250)
+  
   // define style
   strokeWeight(5);
   stroke('#1c0810');
@@ -86,16 +101,30 @@ function draw() {
   
   fill('#1c0810');
   circle(236, 222, 1)
+  
+  // earrings
+  stroke('#713410');
+  circle(185, 223, 10)
+  circle(185, 237, 10)
+  
+  circle(500-185, 223, 10)
+  circle(500-185, 237, 10)
 
   // background
   
   // music notes
-  
+  stroke('#1c0810');
   circle(370, 110, 10)
   circle(390, 120, 10)
   line(375, 110, 375, 85);
   line(395, 120, 395, 85);
   line(375, 85, 395, 85);
+  
+  circle(130, 140, 10)
+  line(135, 140, 135, 115);
+  
+  circle(110, 165, 10)
+  line(105, 165, 105, 190);
   
   // plants
   fill('#657150');
@@ -115,6 +144,7 @@ function draw() {
   // drink
   fill('#f69d9d');
   line(482, 285, 458, 355);
+  rect(466, 352, 40, 55, 5, 5, 15, 15);
   rect(466, 352, 40, 55, 5, 5, 15, 15);
   
   // book
